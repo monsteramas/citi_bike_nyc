@@ -1,6 +1,5 @@
 ---
 title: "Citi Bike Report"
-always_allow_html: true
 output:
   md_document:
     variant: markdown_github
@@ -16,6 +15,7 @@ library(slider)
 library(tidyverse)
 library(tsibbledata)
 library(tsibble)
+library(webshot2)
 nyc_bikes_df <- nyc_bikes
 ```
 
