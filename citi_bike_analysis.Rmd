@@ -1,6 +1,8 @@
 ---
 title: "Citi Bike Report"
 output:
+  md_document:
+    variant: markdown_github
   html_document:
     df_print: paged
     code_folding: hide
@@ -13,6 +15,7 @@ library(slider)
 library(tidyverse)
 library(tsibbledata)
 library(tsibble)
+library(webshot2)
 nyc_bikes_df <- nyc_bikes
 ```
 
